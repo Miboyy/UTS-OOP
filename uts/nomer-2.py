@@ -1,5 +1,5 @@
 class Mahasiswa:
-    def _init_(self, nama, nim, programStudi):
+    def __init__(self, nama, nim, programStudi):  # Perbaikan pada nama konstruktor
         self.nama = nama
         self.nim = nim
         self.programStudi = programStudi
