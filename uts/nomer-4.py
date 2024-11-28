@@ -1,5 +1,5 @@
 class AkunBank:
-    def _init_(self, nomor_rekening, saldo):
+    def __init__(self, nomor_rekening, saldo):  # Perbaikan pada nama konstruktor
         self.nomor_rekening = nomor_rekening
         self._saldo = saldo  # Atribut privat
 
